@@ -19,7 +19,7 @@ def loop(netnum):
     f.write('分别是：\n')
     for i in host:
         print(i)
-        f.write(i + ' ')
+        f.write(i + '\n')
     f.close()
 
 
